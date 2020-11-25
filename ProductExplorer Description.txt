@@ -1,0 +1,28 @@
+Developer creates a git repository with 
+main
+developer 
+document (at least this one)   
+
+On Customer's desk 
+Install git 
+Install ProductExplorer 
+Create a directory for product 
+
+Set up project file with: 
+Remote URL 
+Local Directory 
+Then do initialize 
+
+write as a batch file 
+cd <local_directory> 
+git clone URL 
+git checkout document 
+git add * 
+Execute as 
+
+Now everytime 
+cd local_directory
+git checkout document 
+git add *
+git commit 
+
