@@ -15,14 +15,30 @@ Then do initialize
 
 write as a batch file 
 cd <local_directory> 
-git clone URL 
-git checkout document 
-git add * 
-Execute as 
-
-Now everytime 
-cd local_directory
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git clone <URL> 
+#git clone https://github.com/atdd-bdd/FeatureTest
 git checkout document 
 git add *
-git commit 
+git remote add origin <URL>
+git remote add origin https://github.com/atdd-bdd/FeatureTest.git 
+Execute as 
+
+https://optout.aboutads.info/?c=2&lang=EN
+http://info.evidon.com/more_info/145326
+
+git status 
+Gives the status 
+
+git fetch
+git merge origin/<master>
+git pull origin document   - fetches everything 
+
+Now everytime 
+cd <local_directory>
+git checkout document 
+git add *
+git commit -m "<message>"
+git push origin document
 
